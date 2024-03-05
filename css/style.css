@@ -1255,6 +1255,10 @@ a {
   text-align: center;
 }
 
+.card-image {
+  width: 100%;
+}
+
 .card-text {
   margin: 3px 0 12px 0;
 
@@ -1469,6 +1473,10 @@ a {
 
   border-radius: 5px;
   border: 1px #EDEDF0 solid;
+}
+
+.card-slide-image {
+  width: 100%;
 }
 
 .card-slide-title {
