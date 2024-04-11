@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>document</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header-slider"></div>
+    <nav class="header-menu">
+      <ul class="header-menu-list">
+        <li class="header-menu-item">
+          <section class="menu-popup">
+            <div class="menu-popup-wrapper">
+              <button  class="menu-popup-close">
+                <span id="close-button" class="menu-popup-close-icon">&times;</span>
+              </button>
+              <nav class="menu-popup-nav">
+                <ul class="menu-popup-list">
+                  <li class="menu-popup-item menu-popup-item-adress">
+                    <div id="openAdress" class="menu-popup-adress-wrapper">
+                      <img src="svg/place.svg" alt="метка" class="menu-popup-adress-icon">
+                      <span class="menu-popup-adress" id="main-adress">Санкт-Петербург</span>
+                      <img src="svg/check.svg" alt="галочка" class="menu-popup-check">
+                    </div>
+                    <div class="popup-adress-wrapper" id="adress">
+                      <span class="popup-adress" id="adress1">Санкт-Петербург</span>
+                      <span class="popup-adress" id="adress2">Москва</span>
+                      <span class="popup-adress" id="adress3">Калининград</span>
+                      <span class="popup-adress" id="adress4">Ярославль</span>
+                    </div>
+                  </li>
+                  <li class="menu-popup-item">
+                    <a href="#" class="popup-item-link">
+                      <span class="menu-popup-offers">Сладкие дни</span>
+                      <img src="svg/procent.svg" alt="процент" class="menu-popup-offers-icon">
+                    </a>
+                  </li>
+                  <li class="menu-popup-item">
+                    <a href="#" class="popup-item-link">подарочные наборы</a>
+                  </li>
+                  <li class="menu-popup-item">
+                    <a href="#" class="popup-item-link">Собрать набор</a>
+                  </li>
+                  <li class="menu-popup-item">
+                    <a href="#" class="popup-item-link">Создать дизайн</a>
+                  </li>
+                  <li class="menu-popup-item">
+                    <a href="#" class="popup-item-link">Компаниям</a>
+                  </li>
+                  <li class="menu-popup-item menu-popup-item-catalog">
+                    <div id="openCatalog" class="menu-popup-catalog-wrapper">
+                      <a href="#" class="popup-item-link menu-popup-item-link-catalog">Весь каталог</a>
+                      <img src="svg/check.svg" alt="метка" class="menu-popup-catalog-icon">
+                    </div>
+                    <div class="menu-popup-catalog" id="catalog">
+                      <span class="menu-popup-catalog-item">
+                        <a href="catalog1.html" class="menu-popup-catalog-item-link">Каталог наборов</a>
+                      </span>
+                      <span class="menu-popup-catalog-item">
+                        <a href="catalog2.html" class="menu-popup-catalog-item-link">Каталог десертов</a>
+                      </span>
+                    </div>
+                  </li>
+                </ul>
+              </nav>
+              <nav class="popup-service-nav">
+                <ul class="popup-service-list">
+                  <li class="popup-service-item">
+                    <a href="#" class="popup-service-item-link">Гарантия свежести</a>
+                  </li>
+                  <li class="popup-service-item">
+                    <a href="#" class="popup-service-item-link">Доставка и оплата</a>
+                  </li>
+                  <li class="popup-service-item">
+                    <a href="#" class="popup-service-item-link">Оптовые поставки</a>
+                  </li>
+                  <li class="popup-service-item">
+                    <a href="#" class="popup-service-item-link">Контакты</a>
+                  </li>
+                </ul>
+              </nav>
+              <div class="popup-contacts">
+                <div class="popup-phone-wrapper">
+                  <img src="svg/phone.svg" alt="телефон" class="popup-phone">
+                  <a href="tel:88123098288" class="popup-phone">8 812 309-82-88</a>
+                </div>
+                <ul class="popup-socials">
+                  <li class="popup-social-item">
+                    <a href="#" class="popup-social-item-link">
+                      <img src="svg/tg.svg" alt="телеграмм" class="popup-social-item-image">
+                    </a>
+                  </li>
+                  <li class="popup-social-item">
+                    <a href="#" class="popup-social-item-link">
+                      <img src="svg/Vk-popup.svg" alt="в контакте" class="popup-social-item-image">
+                    </a>
+                  </li>
+                  <li class="popup-social-item">
+                    <a href="#" class="popup-social-item-link">
+                      <img src="svg/ok.svg" alt="одноклассники" class="popup-social-item-image">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <button id="open-button" class="menu-button">
+            <img src="svg/menu-icon.svg" alt="иконка меню-бургер" class="menu-button-icon">
+          </button>
+        </li>
+        <li class="header-menu-item">
+          <img src="img/logo mobile.png" alt="логотип" class="menu-logo">
+        </li>
+        <li class="header-menu-item">
+          <a href="#" class="header-menu-basket">
+            <img src="img/basket.png" alt="корзина" class="header-menu-basket-icon">
+            <span class="number-of-orders">4</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="content">
+    <section class="about-us">
+      <h1 class="about-us-name">Macaronshop</h1>
+      <div class="about-us-age">
+        <span class="about-us-age-text">since 2013</span>
+      </div>
+      <h2 class="about-us-title">Настоящая любовь</h2>
+      <p class="about-us-text">Пирожные макарон и другие десерты из натуральных ингредиентов, приготовленные с любовью</p>
+      <div class="about-us-image-wrapper">
+        <img src="img/heart mobile.png" alt="сердце" class="about-us-image">
+        <div class="about-us-image-background about-us-image-background-blue"></div>
+        <div class="about-us-image-background about-us-image-background-pink"></div>
+      </div>
+    </section>
+    <section class="navigation-menu-wrapper">
+      <nav class="navigation-menu">
+        <ul class="navigation-menu-list">
+          <li class="navigatiion-menu-item">
+            <a class="navigatiion-menu-item-link" href="catalog1.html">
+              <h3 class="navigatiion-menu-item-title">Готовые наборы</h3>
+              <img src="svg/navigation menu arrow.svg" alt="стрелочка" class="navigation-menu-item-arrow">
+            </a>
+          </li>
+          <li class="navigatiion-menu-item">
+            <a class="navigatiion-menu-item-link" href="#">
+              <h3 class="navigatiion-menu-item-title">Собрать свой набор</h3>
+              <img src="svg/navigation menu arrow.svg" alt="стрелочка" class="navigation-menu-item-arrow">
+            </a>
+          </li>
+          <li class="navigatiion-menu-item">
+            <a class="navigatiion-menu-item-link" href="#">
+              <h3 class="navigatiion-menu-item-title">Набор с индивидуальной печатью</h3>
+              <img src="svg/navigation menu arrow.svg" alt="стрелочка" class="navigation-menu-item-arrow">
+            </a>
+          </li>
+          <li class="navigatiion-menu-item">
+            <a class="navigatiion-menu-item-link" href="#">
+              <h3 class="navigatiion-menu-item-title">Свадебные предложения</h3>
+              <img src="svg/navigation menu arrow.svg" alt="стрелочка" class="navigation-menu-item-arrow">
+            </a>
+          </li>
+          <li class="navigatiion-menu-item">
+            <a class="navigatiion-menu-item-link" href="#">
+              <h3 class="navigatiion-menu-item-title">Корпоративные подарки</h3>
+              <img src="svg/navigation menu arrow.svg" alt="стрелочка" class="navigation-menu-item-arrow">
+            </a>
+          </li>
+          <li class="navigatiion-menu-item">
+            <a class="navigatiion-menu-item-link" href="#">
+              <h3 class="navigatiion-menu-item-title">Для юридических лиц</h3>
+              <img src="svg/navigation menu arrow.svg" alt="стрелочка" class="navigation-menu-item-arrow">
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+    <section class="offers">
+      <h2 class="offers-title">Акции</h2>
+      <div class="offers-slider-conteiner">
+        <div class="offers-slider">
+          <div class="slide slide1" id="slide1">
+            <a class="offers-slider-link" href="#">
+              <img src="img/offers_slide1.png" alt="сладости" class="offers-slider-image">
+              <div class="offers-slider-content offers-slider-content1">
+                <h3 class="offers-slider-title">новинка</h3>
+                <p class="offers-slider-discription">Наборы на 40 шт от 3600 ₽</p>
+              </div>
+            </a>
+          </div>
+          <div class="slide slide2" id="slide2">
+            <a class="offers-slider-link" href="#">
+              <img src="img/offers_slide2.png" alt="сладости" class="offers-slider-image">
+              <div class="offers-slider-content offers-slider-content2">
+                <h3 class="offers-slider-title">акция</h3>
+                <p class="offers-slider-discription">Эклер + 1 макарон = 99 рублей</p>
+              </div>
+            </a>
+          </div>
+          <div class="slide slide3" id="slide3">
+            <a class="offers-slider-link" href="#">
+              <img src="img/offers_slide3.png" alt="сладости" class="offers-slider-image">
+              <div class="offers-slider-content offers-slider-content3">
+                <h3 class="offers-slider-title">акция</h3>
+                <p class="offers-slider-discription offers-slider-discription3">Супермакарухи по супер ценам</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="offers-dots">
+          <span class="offers-dot" onclick="currentSlide1(0)"></span>
+          <span class="offers-dot" onclick="currentSlide1(1)"></span>
+          <span class="offers-dot" onclick="currentSlide1(2)"></span>
+        </div>
+    </section>
+    <section class="holidays">
+      <h2 class="holidays-title">Ближайшие праздники</h2>
+      <div class="holidays-plan-wrapper">
+        <div class="holidays-plan holidays-plan-dashed">
+          <img src="img/birthday.png" alt="макарон в шапочке" class="holidays-plan-image">
+          <p class="holidays-plan-description holidays-plan-description1">Скоро День рождения близкого человека </p>
+        </div>
+        <div class="holidays-plan">
+          <img src="img/new year.png" alt="макарон" class="holidays-plan-image">
+          <p class="holidays-plan-description">1 января Новый Год 2021</p>
+        </div>
+        <div class="holidays-plan">
+          <img src="img/valentine.png" alt="макарон" class="holidays-plan-image">
+          <p class="holidays-plan-description">14 февраля День Святого Валентина</p>
+        </div>
+      </div>
+    </section>
+    <section class="popular-positions">
+      <h2 class="popular-positions-title">Популяные наборы</h2>
+      <div class="popular-positions-wrapper">
+        <article class="popular-position">
+          <a class="popular-position-link" href="card1.html">
+            <img src="img/popular-position-1.png" alt="набор сладостей" class="popular-position-image">
+            <h3 class="popular-position-title">Сердце</h3>
+            <p class="popular-position-text">24 штуки в коробке в виде сердца. Ассорти из 6 вкусов</p>
+            <span class="popular-position-cost">2800 руб</span>
+            <button class="popular-position-basket-button">
+              <img src="img/basket.png" alt="корзина" class="popular-position-basket">
+            </button>
+          </a>
+        </article>
+        <article class="popular-position">
+          <a class="popular-position-link" href="card2.html">
+            <img src="img/popular-position-2.png" alt="набор сладостей" class="popular-position-image">
+            <h3 class="popular-position-title">Круглый набор</h3>
+            <p class="popular-position-text">40 макаронс в круглой коробке с персональной надписью</p>
+            <span class="popular-position-cost">2800 руб</span>
+            <button class="popular-position-basket-button">
+              <img src="img/basket.png" alt="корзина" class="popular-position-basket">
+            </button>
+          </a>
+        </article>
+        <article class="popular-position">
+          <a class="popular-position-link" href="card3.html">
+            <img src="img/popular-position-3.png" alt="набор сладостей" class="popular-position-image">
+            <h3 class="popular-position-title">Набор на 9</h3>
+            <p class="popular-position-text">Набор из 9 штук в квадратной коробке. Вкусы: шоколад, фисташка, вишня</p>
+            <span class="popular-position-cost">950 руб</span>
+            <button class="popular-position-basket-button">
+              <img src="img/basket.png" alt="корзина" class="popular-position-basket">
+            </button>
+          </a>
+        </article>
+        <article class="popular-position">
+          <a class="popular-position-link" href="card4.html">
+            <img src="img/popular-position-4.png" alt="набор сладостей" class="popular-position-image">
+            <h3 class="popular-position-title">Набор на 16</h3>
+            <p class="popular-position-text">Набор 16 шт. Вкусы: соленая карамель, голубой сыр, пармезан, шоколад</p>
+            <span class="popular-position-cost">1500 руб</span>
+            <button class="popular-position-basket-button">
+              <img src="img/basket.png" alt="корзина" class="popular-position-basket">
+            </button>
+          </a>
+        </article>
+        <article class="popular-position">
+          <a class="popular-position-link" href="card1.html">
+            <img src="img/popular-position-5.png" alt="набор сладостей" class="popular-position-image">
+            <h3 class="popular-position-title">Сердце</h3>
+            <p class="popular-position-text">24 штуки в коробке в виде сердца. Ассорти из 6 вкусов</p>
+            <span class="popular-position-cost">2800 руб</span>
+            <button class="popular-position-basket-button">
+              <img src="img/basket.png" alt="корзина" class="popular-position-basket">
+            </button>
+          </a>
+        </article>
+        <article class="popular-position">
+          <a class="popular-position-link" href="card2.html">
+            <img src="img/popular-position-6.png" alt="набор сладостей" class="popular-position-image">
+            <h3 class="popular-position-title">Круглый набор</h3>
+            <p class="popular-position-text">40 макаронс в круглой коробке с персональной надписью</p>
+            <span class="popular-position-cost">2800 руб</span>
+            <button class="popular-position-basket-button">            
+              <img src="img/basket.png" alt="корзина" class="popular-position-basket">
+            </button>
+          </a>
+        </article>
+        <button class="button all-popular-positions-button">
+          <a class="all-popular-positions-link" href="catalog1.html">Все праздничные наборы</a>
+        </button>
+      </div>
+    </section>
+    <section class="news">
+      <h2 class="news-title">Новости</h2>
+      <div class="news-slider">
+        <div class="news-slide">
+          <article class="news-card">
+            <a class="news-card-link" href="#">
+              <img src="img/news-card-8.png" alt="восьмерка" class="news-card-image">
+              <div class="news-card-content">
+                <time datetime="2023-02-25" class="news-card-date">25.02.2023</time>
+                <h3 class="news-card-title">Скоро главный праздник весны!</h3>
+                <p class="news-card-text">Девушки любят, когда вкусно, красиво и натурально. Смотрите больше наборов с десертами ручной работы</p>
+              </div>
+            </a>
+          </article>
+          <article class="news-card">
+            <a class="news-card-link" href="#">
+              <img src="img/news-card-23.png" alt="набор макарун" class="news-card-image">
+              <div class="news-card-content">
+                <time datetime="2023-02-17" class="news-card-date">17.02.2023</time>
+                <h3 class="news-card-title">Конкурс на 23 февраля!</h3>
+                <p class="news-card-text">День Защитника Отечества уже совсем скоро! Порадуйте своего сладкоежку с помощью аппетитных наборов от МакаронШоп</p>
+              </div>
+            </a>
+          </article>
+        </div>
+        <div class="news-slide">
+          <article class="news-card">
+            <a class="news-card-link" href="#">
+              <img src="img/news-card-8.png" alt="восьмерка" class="news-card-image">
+              <div class="news-card-content">
+                <time datetime="2023-02-25" class="news-card-date">25.02.2023</time>
+                <h3 class="news-card-title">Скоро главный праздник весны!</h3>
+                <p class="news-card-text">Девушки любят, когда вкусно, красиво и натурально. Смотрите больше наборов с десертами ручной работы</p>
+              </div>
+            </a>
+          </article>
+          <article class="news-card">
+            <a class="news-card-link" href="#">
+              <img src="img/news-card-23.png" alt="набор макарун" class="news-card-image">
+              <div class="news-card-content">
+                <time datetime="2023-02-17" class="news-card-date">17.02.2023</time>
+                <h3 class="news-card-title">Конкурс на 23 февраля!</h3>
+                <p class="news-card-text">День Защитника Отечества уже совсем скоро! Порадуйте своего сладкоежку с помощью аппетитных наборов от МакаронШоп</p>
+              </div>
+            </a>
+          </article>
+        </div>
+        <div class="news-slide">
+          <article class="news-card">
+            <a class="news-card-link" href="#">
+              <img src="img/news-card-8.png" alt="восьмерка" class="news-card-image">
+              <div class="news-card-content">
+                <time datetime="2023-02-25" class="news-card-date">25.02.2023</time>
+                <h3 class="news-card-title">Скоро главный праздник весны!</h3>
+                <p class="news-card-text">Девушки любят, когда вкусно, красиво и натурально. Смотрите больше наборов с десертами ручной работы</p>
+              </div>
+            </a>
+          </article>
+          <article class="news-card">
+            <a class="news-card-link" href="#">
+              <img src="img/news-card-23.png" alt="набор макарун" class="news-card-image">
+              <div class="news-card-content">
+                <time datetime="2023-02-17" class="news-card-date">17.02.2023</time>
+                <h3 class="news-card-title">Конкурс на 23 февраля!</h3>
+                <p class="news-card-text">День Защитника Отечества уже совсем скоро! Порадуйте своего сладкоежку с помощью аппетитных наборов от МакаронШоп</p>
+              </div>
+            </a>
+          </article>
+        </div>
+      </div>
+      <div class="news-dots">
+        <span class="news-dot" onclick="currentSlide2(0)"></span>
+        <span class="news-dot" onclick="currentSlide2(1)"></span>
+        <span class="news-dot" onclick="currentSlide2(2)"></span>
+      </div>
+      <button class="button news-button">
+        <a href="news.html" class="news-button-link">Все новости</a>
+      </button>
+    </section>
+    <section class="service">
+      <h2 class="service-title">Мы обо всём позаботились</h2>
+      <div class="service-cards">
+        <article class="service-card">
+          <img src="img/service-1.png" alt="макаруны" class="service-card-image">
+          <h3 class="service-card-title">Лучшие ингрединты</h3>
+          <p class="service-card-text">Что-то про суперкачество, лучших поваров, свежесть и т.д.</p>
+        </article>
+        <article class="service-card">
+          <img src="img/service-2.png" alt="макаруны" class="service-card-image">
+          <h3 class="service-card-title">Упаковка</h3>
+          <p class="service-card-text">Что-то про суперкоробочки и бантики и бла бла бла</p>
+        </article>
+        <article class="service-card">
+          <img src="img/service-3.png" alt="макаруны" class="service-card-image">
+          <h3 class="service-card-title">Получение в день заказа</h3>
+          <p class="service-card-text">В день заказа доставка курьером или самовывоз</p>
+        </article>
+        <article class="service-card">
+          <img src="img/service-4.png" alt="макаруны" class="service-card-image">
+          <h3 class="service-card-title">Анонимная доставка</h3>
+          <p class="service-card-text">Можем преподнести Ваш заказ как анонимный подарок</p>
+        </article>
+      </div>
+    </section>
+  </div>
+  <footer class="footer">
+    <div class="footer-slogans">
+      <div class="footer-slogan-content">
+        <img src="img/footer-icon-1.png" alt="сердце" class="footer-slogan-icon">
+        <p class="footer-slogan-text">Готовим вручную и с любовью</p>
+      </div>
+      <div class="footer-slogan-content">
+        <img src="img/footer-icon-2.png" alt="машина" class="footer-slogan-icon">
+        <p class="footer-slogan-text">Доставим в день заказа</p>
+      </div>
+      <div class="footer-slogan-content">
+        <img src="img/footer-icon-3.png" alt="семя" class="footer-slogan-icon">
+        <p class="footer-slogan-text">100% <br> миндальная мука и натуральные ингредиенты</p>
+      </div>
+    </div>
+    <div class="footer-contacts">
+      <div class="footer-adress-wrapper">
+        <span class="footer-copyright">© 2021 Макароншоп</span>
+        <p class="footer-adress">ООО "Квантум", Санкт-Петербург, улица Маршала Тухачевского, 22</p>
+      </div>
+      <div class="footer-contacts-wrapper">
+        <a href="tel:78123098288" class="footer-phone">+7 (812) 309 82 88</a>
+        <span class="footer-time">с 9:00 до 21:00</span>
+      </div>
+    </div>
+    <div class="footer-social-media">
+      <div class="footer-icon instagram-icon">
+        <a href="#" class="icon-link">
+          <img src="svg/instagram-icon.svg" alt="инстаграмм" class="icon-image">
+        </a>
+      </div>
+      <div class="footer-icon facebook-icon">
+        <a href="#" class="icon-link">
+          <img src="svg/facebook-icon.svg" alt="фэйсбук" class="icon-image">
+        </a>
+      </div>
+      <div class="footer-icon vk-icon">
+        <a href="#" class="icon-link">
+          <img src="svg/vk-icon.svg" alt="в контакте" class="icon-image">
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script src="js/popup-menu.js"></script>
+</body>
+</html>

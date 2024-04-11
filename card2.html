@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>document</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header-slider"></div>
+    <nav class="header-menu">
+      <ul class="header-menu-list">
+        <li class="header-menu-item">
+          <section class="menu-popup">
+            <div class="menu-popup-wrapper">
+              <button  class="menu-popup-close">
+                <span id="close-button" class="menu-popup-close-icon">&times;</span>
+              </button>
+              <nav class="menu-popup-nav">
+                <ul class="menu-popup-list">
+                  <li class="menu-popup-item menu-popup-item-adress">
+                    <div id="openAdress" class="menu-popup-adress-wrapper">
+                      <img src="svg/place.svg" alt="метка" class="menu-popup-adress-icon">
+                      <span class="menu-popup-adress" id="main-adress">Санкт-Петербург</span>
+                      <img src="svg/check.svg" alt="галочка" class="menu-popup-check">
+                    </div>
+                    <div class="popup-adress-wrapper" id="adress">
+                      <span class="popup-adress" id="adress1">Санкт-Петербург</span>
+                      <span class="popup-adress" id="adress2">Москва</span>
+                      <span class="popup-adress" id="adress3">Калининград</span>
+                      <span class="popup-adress" id="adress4">Ярославль</span>
+                    </div>
+                  </li>
+                  <li class="menu-popup-item">
+                    <a href="#" class="popup-item-link">
+                      <span class="menu-popup-offers">Сладкие дни</span>
+                      <img src="svg/procent.svg" alt="процент" class="menu-popup-offers-icon">
+                    </a>
+                  </li>
+                  <li class="menu-popup-item">
+                    <a href="#" class="popup-item-link">подарочные наборы</a>
+                  </li>
+                  <li class="menu-popup-item">
+                    <a href="#" class="popup-item-link">Собрать набор</a>
+                  </li>
+                  <li class="menu-popup-item">
+                    <a href="#" class="popup-item-link">Создать дизайн</a>
+                  </li>
+                  <li class="menu-popup-item">
+                    <a href="#" class="popup-item-link">Компаниям</a>
+                  </li>
+                  <li class="menu-popup-item menu-popup-item-catalog">
+                    <div id="openCatalog" class="menu-popup-catalog-wrapper">
+                      <a href="#" class="popup-item-link menu-popup-item-link-catalog">Весь каталог</a>
+                      <img src="svg/check.svg" alt="метка" class="menu-popup-catalog-icon">
+                    </div>
+                    <div class="menu-popup-catalog" id="catalog">
+                      <a href="catalog1.html" class="menu-popup-catalog-item">Каталог наборов</a>
+                      <a href="catalog2.html" class="menu-popup-catalog-item">Каталог десертов</a>
+                    </div>
+                  </li>
+                </ul>
+              </nav>
+              <nav class="popup-service-nav">
+                <ul class="popup-service-list">
+                  <li class="popup-service-item">
+                    <a href="#" class="popup-service-item-link">Гарантия свежести</a>
+                  </li>
+                  <li class="popup-service-item">
+                    <a href="#" class="popup-service-item-link">Доставка и оплата</a>
+                  </li>
+                  <li class="popup-service-item">
+                    <a href="#" class="popup-service-item-link">Оптовые поставки</a>
+                  </li>
+                  <li class="popup-service-item">
+                    <a href="#" class="popup-service-item-link">Контакты</a>
+                  </li>
+                </ul>
+              </nav>
+              <div class="popup-contacts">
+                <div class="popup-phone-wrapper">
+                  <img src="svg/phone.svg" alt="телефон" class="popup-phone">
+                  <a href="tel:88123098288" class="popup-phone">8 812 309-82-88</a>
+                </div>
+                <ul class="popup-socials">
+                  <li class="popup-social-item">
+                    <a href="#" class="popup-social-item-link">
+                      <img src="svg/tg.svg" alt="телеграмм" class="popup-social-item-image">
+                    </a>
+                  </li>
+                  <li class="popup-social-item">
+                    <a href="#" class="popup-social-item-link">
+                      <img src="svg/Vk-popup.svg" alt="в контакте" class="popup-social-item-image">
+                    </a>
+                  </li>
+                  <li class="popup-social-item">
+                    <a href="#" class="popup-social-item-link">
+                      <img src="svg/ok.svg" alt="одноклассники" class="popup-social-item-image">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <button id="open-button" class="menu-button">
+            <img src="svg/menu-icon.svg" alt="иконка меню-бургер" class="menu-button-icon">
+          </button>
+        </li>
+        <li class="header-menu-item">
+          <img src="img/logo mobile.png" alt="логотип" class="menu-logo">
+        </li>
+        <li class="header-menu-item">
+          <a href="#" class="header-menu-basket">
+            <img src="img/basket.png" alt="корзина" class="header-menu-basket-icon">
+            <span class="number-of-orders">4</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+<div class="content">
+    <nav class="way-nav">
+      <ul class="way-list">
+        <li class="way-item">
+          <a class="way-item-link" href="index.html">Главная ></a>
+        </li>
+        <li class="way-item">
+          <a class="way-item-link" href="catalog1.html">Готовые наборы ></a>
+        </li>
+        <li class="way-item">Круглый набор</li>
+      </ul>
+    </nav>
+    <section class="card">
+      <h2 class="card-title">Круглый набор</h2>
+      <p class="card-text">40 макаронс в круглой коробке с персональной надписью</p>
+      <img src="img/card-2.png" alt="круглый набор" class="card-image">
+      <div class="card-order">
+        <span class="card-cost">2800 руб</span>
+        <div class="card-basket-wrapper">
+          <img src="svg/white-basket.svg" alt="корзина" class="card-basket-image">
+          <span class="card-basket-text">В корзину</span>
+        </div>
+      </div>
+      <ul class="card-menu">
+        <li class="card-menu-item">
+          <div class="card-menu-item-content" id="open-card-description1">
+            <h3 class="card-menu-item-title">Вкусы:</h3>
+            <img src="svg/check.svg" alt="галочка вниз" class="card-menu-item-check card-menu-item-check1">
+            <img src="svg/check-up.svg" alt="галочка вверх" class="card-menu-item-check-up card-menu-item-check-up1">
+          </div>
+        </li>
+        <div class="card-menu-item-information card-menu-item-information1" id="card-description1">
+          <ul class="card-menu-tastes-list">
+            <li class="card-menu-tastes-item">
+              <span class="card-menu-taste">Яблоко</span>
+              <span class="card-menu-taste-number">4 шт.</span>
+            </li>
+            <li class="card-menu-tastes-item">
+              <span class="card-menu-taste">Вишня</span>
+              <span class="card-menu-taste-number">12 шт.</span>
+            </li>
+            <li class="card-menu-tastes-item">
+              <span class="card-menu-taste">Кокос</span>
+              <span class="card-menu-taste-number">8 шт.</span>
+            </li>
+          </ul>
+        </div>
+        <li class="card-menu-item">
+          <div class="card-menu-item-content" id="open-card-description2">
+            <h3 class="card-menu-item-title">Состав и пищевая ценность</h3>
+            <img src="svg/check.svg" alt="галочка вниз" class="card-menu-item-check card-menu-item-check2">
+            <img src="svg/check-up.svg" alt="галочка вверх" class="card-menu-item-check-up card-menu-item-check-up2">
+          </div>
+        </li>
+        <div class="card-menu-item-information card-menu-item-information2" id="card-description2">
+          <ul class="macaron-structure">
+            <h3 class="macaron-structure-title">Состав:</h3>
+            <li class="macaron-structure-item">- Миндальная мука</li>
+            <li class="macaron-structure-item">- Сахар</li>
+            <li class="macaron-structure-item">- Белки яиц</li>
+            <li class="macaron-structure-item">- Пудра сахара</li>
+            <li class="macaron-structure-item">- Вода</li>
+            <li class="macaron-structure-item">- Естественные ароматизаторы</li>
+          </ul>
+          <ul class="nutritional-value">
+            <h3 class="nutritional-value-title">Пищевая ценность одного макаруна: </h3>
+            <li class="nutritional-value-list">- Калории: 90-100 ккал</li>
+            <li class="nutritional-value-list">- Белки: 2-3 г</li>
+            <li class="nutritional-value-list">- Жиры: 5-7 г</li>
+            <li class="nutritional-value-list">- Углеводы: 10-12 г</li>
+            <li class="nutritional-value-list">- Сахар: 8-10 г</li>
+            <li class="nutritional-value-list">- Пищевые волокна: 1 г</li>
+          </ul>
+        </div>
+        <li class="card-menu-item">
+          <div class="card-menu-item-content" id="open-card-description3">
+            <h3 class="card-menu-item-title">Условия и срок хранения</h3>
+            <img src="svg/check.svg" alt="галочка вниз" class="card-menu-item-check card-menu-item-check3">
+            <img src="svg/check-up.svg" alt="галочка вверх" class="card-menu-item-check-up card-menu-item-check-up3">
+          </div>
+        </li>
+        <div class="card-menu-item-information card-menu-item-information3" id="card-description3">
+          <ul class="storage-conditions">
+            <h3 class="storage-conditions-title">Условия хранения макарун:</h3>
+            <li class="storage-conditions-item">- Хранить в сухом и прохладном месте</li>
+            <li class="storage-conditions-item">- Защищать от прямых солнечных лучей</li>
+            <li class="storage-conditions-item">- Избегать влажности</li>
+            <li class="storage-conditions-item">- Хранить в закрытом контейнере или упаковке</li>
+          </ul>
+          <u class="expiration-date">
+            <h3 class="expiration-date-title">Срок хранения макарун:</h3>
+            <li class="expiration-date-item">- Обычные макаруны без начинки: 3-7 дней</li>
+            <li class="expiration-date-item">- Макаруны с начинкой (например, ганашем): до 1-2 недель</li>
+            <li class="expiration-date-item">- Можно заморозить: до 2-3 месяцев
+            </li>
+          </u>
+        </div>
+      </ul>
+      <div class="card-service">
+        <div class="card-service-content">
+          <img src="svg/card-car.svg" alt="грузовик" class="card-service-image">
+          <p class="card-service-text">Доставка от <span class="card-service-text-underline">400 руб.</span> в день заказа с 12 до 17 или с 17 до 21. <span class="card-service-text-underline">Бесплатно</span> при заказе на сумму от 2000 руб</p>
+        </div>
+        <div class="card-service-content">
+          <img src="svg/card-hand.svg" alt="ладонь" class="card-service-image">
+          <p class="card-service-text">Самовывоз <span class="card-service-text-underline">бесплатно</span>.Через 3 часа после оплаты заказа</p>
+        </div>
+        <div class="card-service-content">
+          <img src="svg/card-gift.svg" alt="подарок" class="card-service-image">
+          <p class="card-service-text">Можем преподнести как анонимный подарок:)</p>
+        </div>
+      </div>
+    </section>
+    <section class="card-slider">
+      <h2 class="card-slider-title">Вам могут понравиться:</h2>
+      <div class="card-slider-wrapper">
+        <div class="card-slide">
+          <article class="card-slide-article">
+            <a class="card-slide-link" href="card1.html">
+              <img src="img/popular-position-1.png" alt="набор сладостей" class="card-slide-image">
+              <h3 class="card-slide-title">Сердце</h3>
+              <p class="card-slide-text">24 штуки в коробке в виде сердца. Ассорти из 6 вкусов</p>
+              <div class="combo-set-bottom-wrapper card-slide-bottom-wrapper">
+                <span class="combo-set-cost card-slide-cost">2800 руб</span>
+                <div class="card-slide-basket-button">
+                  <img src="img/basket.png" alt="корзина" class="card-slide-basket">
+                </div>
+              </div>
+            </a>
+          </article>
+          <article class="card-slide-article">
+            <a class="card-slide-link" href="card3.html">
+              <img src="img/popular-position-3.png" alt="набор сладостей" class="card-slide-image">
+              <h3 class="card-slide-title">Набор на 9</h3>
+              <p class="card-slide-text">Набор из 9 штук в квадратной коробке. Вкусы: шоколад, фисташка, вишня</p>
+              <div class="combo-set-bottom-wrapper card-slide-bottom-wrapper">
+                <span class="combo-set-cost card-slide-cost">950 руб</span>
+                <div class="card-slide-basket-button">
+                  <img src="img/basket.png" alt="корзина" class="card-slide-basket">
+                </div>
+              </div>
+            </a>
+          </article>
+        </div>
+        <div class="card-slide">
+          <article class="card-slide-article">
+            <a class="card-slide-link" href="card4.html">
+              <img src="img/popular-position-4.png" alt="набор сладостей" class="card-slide-image">
+              <h3 class="card-slide-title">Набор на 16</h3>
+              <p class="card-slide-text">Набор 16 шт. Вкусы: соленая карамель, голубой сыр, пармезан, шоколад</p>
+              <div class="combo-set-bottom-wrapper card-slide-bottom-wrapper">
+                <span class="combo-set-cost card-slide-cost">1500 руб</span>
+                <div class="card-slide-basket-button">
+                  <img src="img/basket.png" alt="корзина" class="card-slide-basket">
+                </div>
+              </div>
+            </a>
+          </article>
+          <article class="card-slide-article">
+            <a class="card-slide-link" href="card1.html">
+              <img src="img/popular-position-1.png" alt="набор сладостей" class="card-slide-image">
+              <h3 class="card-slide-title">Сердце</h3>
+              <p class="card-slide-text">24 штуки в коробке в виде сердца. Ассорти из 6 вкусов</p>
+              <div class="combo-set-bottom-wrapper card-slide-bottom-wrapper">
+                <span class="combo-set-cost card-slide-cost">2800 руб</span>
+                <div class="card-slide-basket-button">
+                  <img src="img/basket.png" alt="корзина" class="card-slide-basket">
+                </div>
+              </div>
+            </a>
+          </article>
+        </div>
+        <div class="card-slide">
+          <article class="card-slide-article">
+            <a class="card-slide-link" href="card3.html">
+              <img src="img/popular-position-3.png" alt="набор сладостей" class="card-slide-image">
+              <h3 class="card-slide-title">Набор на 9</h3>
+              <p class="card-slide-text">Набор из 9 штук в квадратной коробке. Вкусы: шоколад, фисташка, вишня</p>
+              <div class="combo-set-bottom-wrapper card-slide-bottom-wrapper">
+                <span class="combo-set-cost card-slide-cost">950 руб</span>
+                <div class="card-slide-basket-button">
+                  <img src="img/basket.png" alt="корзина" class="card-slide-basket">
+                </div>
+              </div>
+            </a>
+          </article>
+          <article class="card-slide-article">
+            <a class="card-slide-link" href="card4.html">
+              <img src="img/popular-position-4.png" alt="набор сладостей" class="card-slide-image">
+              <h3 class="card-slide-title">Набор на 16</h3>
+              <p class="card-slide-text">Набор 16 шт. Вкусы: соленая карамель, голубой сыр, пармезан, шоколад</p>
+             <div class="combo-set-bottom-wrapper card-slide-bottom-wrapper">
+                <span class="combo-set-cost card-slide-cost">1500 руб</span>
+                <div class="card-slide-basket-button">
+                  <img src="img/basket.png" alt="корзина" class="card-slide-basket">
+                </div>
+             </div>
+            </a>
+          </article>
+        </div>
+      </div>
+      <div class="card-slider-dots">
+        <span class="card-slider-dot" onclick="currentSlide(0)"></span>
+        <span class="card-slider-dot" onclick="currentSlide(1)"></span>
+        <span class="card-slider-dot" onclick="currentSlide(2)"></span>
+      </div>
+    </section>
+</div>
+  <footer class="footer">
+    <div class="footer-slogans">
+      <div class="footer-slogan-content">
+        <img src="img/footer-icon-1.png" alt="сердце" class="footer-slogan-icon">
+        <p class="footer-slogan-text">Готовим вручную и с любовью</p>
+      </div>
+      <div class="footer-slogan-content">
+        <img src="img/footer-icon-2.png" alt="машина" class="footer-slogan-icon">
+        <p class="footer-slogan-text">Доставим в день заказа</p>
+      </div>
+      <div class="footer-slogan-content">
+        <img src="img/footer-icon-3.png" alt="семя" class="footer-slogan-icon">
+        <p class="footer-slogan-text">100% <br> миндальная мука и натуральные ингредиенты</p>
+      </div>
+    </div>
+    <div class="footer-contacts">
+      <div class="footer-adress-wrapper">
+        <span class="footer-copyright">© 2021 Макароншоп</span>
+        <p class="footer-adress">ООО "Квантум", Санкт-Петербург, улица Маршала Тухачевского, 22</p>
+      </div>
+      <div class="footer-contacts-wrapper">
+        <a href="tel:78123098288" class="footer-phone">+7 (812) 309 82 88</a>
+        <span class="footer-time">с 9:00 до 21:00</span>
+      </div>
+    </div>
+    <div class="footer-social-media">
+      <div class="footer-icon instagram-icon">
+        <a href="#" class="icon-link">
+          <img src="svg/instagram-icon.svg" alt="инстаграмм" class="icon-image">
+        </a>
+      </div>
+      <div class="footer-icon facebook-icon">
+        <a href="#" class="icon-link">
+          <img src="svg/facebook-icon.svg" alt="фэйсбук" class="icon-image">
+        </a>
+      </div>
+      <div class="footer-icon vk-icon">
+        <a href="#" class="icon-link">
+          <img src="svg/vk-icon.svg" alt="в контакте" class="icon-image">
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/card.js"></script>
+  <script src="js/popup-menu.js"></script>
+</body>
+</html>

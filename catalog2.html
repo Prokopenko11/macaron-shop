@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>document</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header-slider"></div>
+    <nav class="header-menu">
+      <ul class="header-menu-list">
+        <li class="header-menu-item">
+          <section class="menu-popup">
+            <div class="menu-popup-wrapper">
+              <button  class="menu-popup-close">
+                <span id="close-button" class="menu-popup-close-icon">&times;</span>
+              </button>
+              <nav class="menu-popup-nav">
+                <ul class="menu-popup-list">
+                  <li class="menu-popup-item menu-popup-item-adress">
+                    <div id="openAdress" class="menu-popup-adress-wrapper">
+                      <img src="svg/place.svg" alt="метка" class="menu-popup-adress-icon">
+                      <span class="menu-popup-adress" id="main-adress">Санкт-Петербург</span>
+                      <img src="svg/check.svg" alt="галочка" class="menu-popup-check">
+                    </div>
+                    <div class="popup-adress-wrapper" id="adress">
+                      <span class="popup-adress" id="adress1">Санкт-Петербург</span>
+                      <span class="popup-adress" id="adress2">Москва</span>
+                      <span class="popup-adress" id="adress3">Калининград</span>
+                      <span class="popup-adress" id="adress4">Ярославль</span>
+                    </div>
+                  </li>
+                  <li class="menu-popup-item">
+                    <a href="#" class="popup-item-link">
+                      <span class="menu-popup-offers">Сладкие дни</span>
+                      <img src="svg/procent.svg" alt="процент" class="menu-popup-offers-icon">
+                    </a>
+                  </li>
+                  <li class="menu-popup-item">
+                    <a href="#" class="popup-item-link">подарочные наборы</a>
+                  </li>
+                  <li class="menu-popup-item">
+                    <a href="#" class="popup-item-link">Собрать набор</a>
+                  </li>
+                  <li class="menu-popup-item">
+                    <a href="#" class="popup-item-link">Создать дизайн</a>
+                  </li>
+                  <li class="menu-popup-item">
+                    <a href="#" class="popup-item-link">Компаниям</a>
+                  </li>
+                  <li class="menu-popup-item menu-popup-item-catalog">
+                    <div id="openCatalog" class="menu-popup-catalog-wrapper">
+                      <a href="#" class="popup-item-link menu-popup-item-link-catalog">Весь каталог</a>
+                      <img src="svg/check.svg" alt="метка" class="menu-popup-catalog-icon">
+                    </div>
+                    <div class="menu-popup-catalog" id="catalog">
+                      <span class="menu-popup-catalog-item">Каталог наборов</span>
+                      <span class="menu-popup-catalog-item">Каталог десертов</span>
+                    </div>
+                  </li>
+                </ul>
+              </nav>
+              <nav class="popup-service-nav">
+                <ul class="popup-service-list">
+                  <li class="popup-service-item">
+                    <a href="#" class="popup-service-item-link">Гарантия свежести</a>
+                  </li>
+                  <li class="popup-service-item">
+                    <a href="#" class="popup-service-item-link">Доставка и оплата</a>
+                  </li>
+                  <li class="popup-service-item">
+                    <a href="#" class="popup-service-item-link">Оптовые поставки</a>
+                  </li>
+                  <li class="popup-service-item">
+                    <a href="#" class="popup-service-item-link">Контакты</a>
+                  </li>
+                </ul>
+              </nav>
+              <div class="popup-contacts">
+                <div class="popup-phone-wrapper">
+                  <img src="svg/phone.svg" alt="телефон" class="popup-phone">
+                  <a href="tel:88123098288" class="popup-phone">8 812 309-82-88</a>
+                </div>
+                <ul class="popup-socials">
+                  <li class="popup-social-item">
+                    <a href="#" class="popup-social-item-link">
+                      <img src="svg/tg.svg" alt="телеграмм" class="popup-social-item-image">
+                    </a>
+                  </li>
+                  <li class="popup-social-item">
+                    <a href="#" class="popup-social-item-link">
+                      <img src="svg/Vk-popup.svg" alt="в контакте" class="popup-social-item-image">
+                    </a>
+                  </li>
+                  <li class="popup-social-item">
+                    <a href="#" class="popup-social-item-link">
+                      <img src="svg/ok.svg" alt="одноклассники" class="popup-social-item-image">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <button id="open-button" class="menu-button">
+            <img src="svg/menu-icon.svg" alt="иконка меню-бургер" class="menu-button-icon">
+          </button>
+        </li>
+        <li class="header-menu-item">
+          <img src="img/logo mobile.png" alt="логотип" class="menu-logo">
+        </li>
+        <li class="header-menu-item">
+          <a href="#" class="header-menu-basket">
+            <img src="img/basket.png" alt="корзина" class="header-menu-basket-icon">
+            <span class="number-of-orders">4</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="content">
+    <nav class="way-nav">
+      <ul class="way-list">
+        <li class="way-item"><a class="way-item-link" href="index.html">Главная ></a></li>
+        <li class="way-item">Каталог десертов</li>
+      </ul>
+    </nav>
+    <section class="desserts">
+      <h2 class="desserts-title">Каталог десертов</h2>
+      <div class="desserts-wrapper">
+        <article class="dessert main-dessert">
+          <img src="img/deserts-macaron.png" alt="макаруны" class="dessert-image main-dessert-image">
+          <div class="main-dessert-content">
+            <h3 class="dessert-title main-dessert-title">Пирожные макарон</h3>
+            <p class="dessert-description">Самые классные, самые лучшие, свежие, воздушные, хрустящие макарушки. лучшее, что мы умеем делать.</p>
+            <button class="button all-sets-button">
+              <a href="catalog1.html" class="all-sets-button-link">Готовые наборы</a>
+            </button>
+            <button class="button make-set-button">
+              <a href="#" class="make-set-button-link">Собрать свой набор</a>
+            </button>
+          </div>
+        </article>
+        <article class="dessert">
+          <img src="img/desserts-tubes.png" alt="трубочки" class="dessert-image">
+          <h3 class="dessert-title dessert-title-tubes">Трубочки со сгущенкой</h3>
+        </article>
+        <article class="dessert">
+          <img src="img/desserts-eclair.png" alt="эклеры" class="dessert-image">
+          <h3 class="dessert-title">Эклеры</h3>
+        </article>
+        <article class="dessert">
+          <img src="img/dessert-profiteroles.png" alt="профитроли" class="dessert-image dessert-image-profiteroles">
+          <h3 class="dessert-title dessert-title-profiteroles">Профитроли</h3>
+        </article>
+      </div>
+    </section>
+    <section class="combo-sets">
+      <h2 class="combo-sets-title">Хотите попробовать всё сразу?</h2>
+      <p class="combo-sets-text">Тогда взгляните на наши комбо-наборы</p>
+      <div class="combo-sets-wrapper">
+        <article class="combo-set">
+          <a href="#" class="combo-set-link">
+            <img src="img/combo-set-1.png" alt="набор сладостей" class="combo-set-image">
+            <h3 class="combo-set-title">1 макарон и 1 эклер</h3>
+            <p class="combo-set-text">промо-набор</p>
+            <div class="combo-set-bottom-wrapper">
+              <div class="combo-set-cost-wrapper">
+                <span class="combo-set-cost combo-set-original-cost">160 руб</span>
+                <span class="combo-set-cost">90 руб</span>
+              </div>
+              <div class="combo-set-basket-wrapper">
+                <img src="img/basket.png" alt="корзина" class="combo-set-basket">
+              </div>
+            </div>
+          </a>
+        </article>
+        <article class="combo-set">
+          <a href="#" class="combo-set-link">
+            <img src="img/combo-set-2.png" alt="набор сладостей" class="combo-set-image">
+            <h3 class="combo-set-title">1 макарон и 1 эклер</h3>
+            <p class="combo-set-text">Вкусы: клубника - базилик, кокос, голубой сыр, пармезан</p>
+            <div class="combo-set-bottom-wrapper">
+              <span class="combo-set-cost combo-set-cost-only">1500 руб</span>
+              <div class="combo-set-basket-wrapper">
+                <img src="img/basket.png" alt="корзина" class="combo-set-basket combo-set-basket-only">
+              </div>
+            </div>
+          </a>
+        </article>
+        <article class="combo-set">
+          <a href="#" class="combo-set-link">
+            <img src="img/combo-set-3.png" alt="набор сладостей" class="combo-set-image">
+            <h3 class="combo-set-title">Ещё побольше</h3>
+            <p class="combo-set-text">3 эклера, 4 трубочки, 6 макарун. Вкусы: клубника - базилик, кокос, голубой сыр, пармезан</p>
+            <div class="combo-set-bottom-wrapper">
+              <span class="combo-set-cost combo-set-cost-only">2800 руб</span>
+              <div class="combo-set-basket-wrapper">
+                <img src="img/basket.png" alt="корзина" class="combo-set-basket combo-set-basket-only">
+              </div>
+            </div>
+          </a>
+        </article>
+        <article class="combo-set">
+          <img src="img/combo-set-4.png" alt="набор сладостей" class="combo-set-image">
+          <a href="#" class="combo-set-link">
+            <h3 class="combo-set-title">Ещё побольше</h3>
+            <p class="combo-set-text">3 эклера, 4 трубочки, 6 макарун. Вкусы: клубника - базилик, кокос, голубой сыр, пармезан</p>
+            <div class="combo-set-bottom-wrapper">
+              <span class="combo-set-cost combo-set-cost-only">2800 руб</span>
+              <div class="combo-set-basket-wrapper">
+                <img src="img/basket.png" alt="корзина" class="combo-set-basket combo-set-basket-only">
+              </div>
+            </div>
+          </a>
+        </article>
+      </div>
+      <button class="button combo-sets-button">
+        <a href="catalog1.html" class="combo-sets-button-link">Все готовые наборы</a>
+      </button>
+    </section>
+  </div>
+  <footer class="footer">
+    <div class="footer-slogans">
+      <div class="footer-slogan-content">
+        <img src="img/footer-icon-1.png" alt="сердце" class="footer-slogan-icon">
+        <p class="footer-slogan-text">Готовим вручную и с любовью</p>
+      </div>
+      <div class="footer-slogan-content">
+        <img src="img/footer-icon-2.png" alt="машина" class="footer-slogan-icon">
+        <p class="footer-slogan-text">Доставим в день заказа</p>
+      </div>
+      <div class="footer-slogan-content">
+        <img src="img/footer-icon-3.png" alt="семя" class="footer-slogan-icon">
+        <p class="footer-slogan-text">100% <br> миндальная мука и натуральные ингредиенты</p>
+      </div>
+    </div>
+    <div class="footer-contacts">
+      <div class="footer-adress-wrapper">
+        <span class="footer-copyright">© 2021 Макароншоп</span>
+        <p class="footer-adress">ООО "Квантум", Санкт-Петербург, улица Маршала Тухачевского, 22</p>
+      </div>
+      <div class="footer-contacts-wrapper">
+        <a href="tel:78123098288" class="footer-phone">+7 (812) 309 82 88</a>
+        <span class="footer-time">с 9:00 до 21:00</span>
+      </div>
+    </div>
+    <div class="footer-social-media">
+      <div class="footer-icon instagram-icon">
+        <a href="#" class="icon-link">
+          <img src="svg/instagram-icon.svg" alt="инстаграмм" class="icon-image">
+        </a>
+      </div>
+      <div class="footer-icon facebook-icon">
+        <a href="#" class="icon-link">
+          <img src="svg/facebook-icon.svg" alt="фэйсбук" class="icon-image">
+        </a>
+      </div>
+      <div class="footer-icon vk-icon">
+        <a href="#" class="icon-link">
+          <img src="svg/vk-icon.svg" alt="в контакте" class="icon-image">
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/popup-menu.js"></script>
+</body>
+</html>
