@@ -1506,7 +1506,7 @@ a {
 }
 
 .news-section {
-  padding: 0 16px 40px 16px;
+  padding: 0 16px 20px 16px;
 }
 
 .news-wrapper {
@@ -1565,4 +1565,8 @@ a {
   border-radius: 100px;
   color: rgba(41, 41, 41, 0.83);
   float: left;
+}
+
+.news-card-content-newspage {
+  padding-bottom: 30px;
 }
