@@ -515,15 +515,15 @@ a {
 }
 
 .offers-slider-content1 {
-  background: linear-gradient(to top, rgba(82, 179, 81, 1) 60%, rgba(82, 179, 81, 0));
+  background: linear-gradient(to top, rgba(82, 179, 81, 1) 70%, rgba(82, 179, 81, 0));
 }
 
 .offers-slider-content2 {
-  background: linear-gradient(to top, rgba(250, 178, 214, 1) 60%, rgba(250, 178, 214, 0));
+  background: linear-gradient(to top, rgba(250, 178, 214, 1) 70%, rgba(250, 178, 214, 0));
 }
 
 .offers-slider-content3 {
-  background: linear-gradient(to top, rgba(126, 161, 204, 1) 60%, rgba(126, 161, 204, 0));
+  background: linear-gradient(to top, rgba(126, 161, 204, 1) 70%, rgba(126, 161, 204, 0));
 }
 
 .offers-slider-title {
@@ -1714,6 +1714,8 @@ a {
 .main-image {
   margin-bottom: 10px;
   width: 100%;
+
+  border-radius: 3px;
 }
 
 .news-card-little-cards {
@@ -1735,9 +1737,12 @@ a {
   border-radius: 3px;
 }
 
+.news-card-little-card-image {
+  border-radius: 3px;
+}
+
 .news-card-little-card-image:hover {
   outline: 3px #E7426A solid;
-  border-radius: 3px;
 }
 
 .news-card-form {

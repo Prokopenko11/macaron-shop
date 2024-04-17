@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="../css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>document</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header-slider"></div>
+    <nav class="header-menu">
+      <ul class="header-menu-list">
+        <li class="header-menu-item">
+          <section class="menu-popup">
+            <div class="menu-popup-wrapper">
+              <button  class="menu-popup-close">
+                <span id="close-button" class="menu-popup-close-icon">&times;</span>
+              </button>
+              <nav class="menu-popup-nav">
+                <ul class="menu-popup-list">
+                  <li class="menu-popup-item menu-popup-item-adress">
+                    <div id="openAdress" class="menu-popup-adress-wrapper">
+                      <img src="../svg/place.svg" alt="метка" class="menu-popup-adress-icon">
+                      <span class="menu-popup-adress" id="main-adress">Санкт-Петербург</span>
+                      <img src="../svg/check.svg" alt="галочка" class="menu-popup-check">
+                    </div>
+                    <div class="popup-adress-wrapper" id="adress">
+                      <span class="popup-adress" id="adress1">Санкт-Петербург</span>
+                      <span class="popup-adress" id="adress2">Москва</span>
+                      <span class="popup-adress" id="adress3">Калининград</span>
+                      <span class="popup-adress" id="adress4">Ярославль</span>
+                    </div>
+                  </li>
+                  <li class="menu-popup-item">
+                    <a href="#" class="popup-item-link">
+                      <span class="menu-popup-offers">Сладкие дни</span>
+                      <img src="../svg/procent.svg" alt="процент" class="menu-popup-offers-icon">
+                    </a>
+                  </li>
+                  <li class="menu-popup-item">
+                    <a href="#" class="popup-item-link">подарочные наборы</a>
+                  </li>
+                  <li class="menu-popup-item">
+                    <a href="#" class="popup-item-link">Собрать набор</a>
+                  </li>
+                  <li class="menu-popup-item">
+                    <a href="#" class="popup-item-link">Создать дизайн</a>
+                  </li>
+                  <li class="menu-popup-item">
+                    <a href="#" class="popup-item-link">Компаниям</a>
+                  </li>
+                  <li class="menu-popup-item menu-popup-item-catalog">
+                    <div id="openCatalog" class="menu-popup-catalog-wrapper">
+                      <a href="#" class="popup-item-link menu-popup-item-link-catalog">Весь каталог</a>
+                      <img src="../svg/check.svg" alt="метка" class="menu-popup-catalog-icon">
+                    </div>
+                    <div class="menu-popup-catalog" id="catalog">
+                      <span class="menu-popup-catalog-item">
+                        <a href="../catalog1.html" class="menu-popup-catalog-item-link">Каталог наборов</a>
+                      </span>
+                      <span class="menu-popup-catalog-item">
+                        <a href="../catalog2.html" class="menu-popup-catalog-item-link">Каталог десертов</a>
+                      </span>
+                    </div>
+                  </li>
+                </ul>
+              </nav>
+              <nav class="popup-service-nav">
+                <ul class="popup-service-list">
+                  <li class="popup-service-item">
+                    <a href="#" class="popup-service-item-link">Гарантия свежести</a>
+                  </li>
+                  <li class="popup-service-item">
+                    <a href="#" class="popup-service-item-link">Доставка и оплата</a>
+                  </li>
+                  <li class="popup-service-item">
+                    <a href="#" class="popup-service-item-link">Оптовые поставки</a>
+                  </li>
+                  <li class="popup-service-item">
+                    <a href="#" class="popup-service-item-link">Контакты</a>
+                  </li>
+                </ul>
+              </nav>
+              <div class="popup-contacts">
+                <div class="popup-phone-wrapper">
+                  <img src="../svg/phone.svg" alt="телефон" class="popup-phone">
+                  <a href="tel:88123098288" class="popup-phone">8 812 309-82-88</a>
+                </div>
+                <ul class="popup-socials">
+                  <li class="popup-social-item">
+                    <a href="#" class="popup-social-item-link">
+                      <img src="../svg/tg.svg" alt="телеграмм" class="popup-social-item-image">
+                    </a>
+                  </li>
+                  <li class="popup-social-item">
+                    <a href="#" class="popup-social-item-link">
+                      <img src="../svg/Vk-popup.svg" alt="в контакте" class="popup-social-item-image">
+                    </a>
+                  </li>
+                  <li class="popup-social-item">
+                    <a href="#" class="popup-social-item-link">
+                      <img src="../svg/ok.svg" alt="одноклассники" class="popup-social-item-image">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <button id="open-button" class="menu-button">
+            <img src="../svg/menu-icon.svg" alt="иконка меню-бургер" class="menu-button-icon">
+          </button>
+        </li>
+        <li class="header-menu-item">
+          <img src="../img/logo mobile.png" alt="логотип" class="menu-logo">
+        </li>
+        <li class="header-menu-item">
+          <a href="#" class="header-menu-basket">
+            <img src="../img/basket.png" alt="корзина" class="header-menu-basket-icon">
+            <span class="number-of-orders">4</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <nav class="way-nav">
+    <ul class="way-list">
+      <li class="way-item"><a class="way-item-link" href="../index.html">Главная ></a></li>
+      <li class="way-item"><a class="way-item-link" href="../news.html">Новости ></a></li>
+      <li class="way-item">Конкурс на 23 февраля</li>
+    </ul>
+  </nav>
+  <section class="news-card-section">
+    <div class="news-card-wrapper">
+      <ul class="news-card-list">
+        <li class="news-card-item">23 февраля</li>
+        <li class="news-card-item">Акции</li>
+        <li class="news-card-item">Подарок на 23 февраля</li>
+      </ul>
+    </div>
+    <h2 class="news-card-title news-card-page-title">Конкурс на 23 февраля!</h2>
+    <p class="news-card-text news-card-page-text">День Защитника Отечества уже совсем скоро! Порадуйте своего сладкоежку с помощью аппетитных наборов от МакаронШоп. Эти наборы не только удовлетворят вкусовые предпочтения вашего близкого, но и станут отличным символом заботы и внимания в этот праздничный день. В ассортименте МакаронШоп вы найдете разнообразные вкусы макарон, которые завораживают своими яркими цветами и неповторимыми ароматами.</p>
+    <h3 class="news-card-second-title">Конкурс на 23 февраля!</h3>
+    <h4 class="news-card-positions-title">Некоторые варианты подарков:</h4>
+    <ul class="news-card-positions-list">
+      <li class="news-card-positions-item">Набор на 9 макарон - 1200 рублей</li>
+      <li class="news-card-positions-item">Набор Сердце на 22 макарон - 3500 рублей</li>
+      <li class="news-card-positions-item">Набор на 12 макарон - 1500 рублей</li>
+      <li class="news-card-positions-item">Набор Круглый на 40 макарон - 5000 рублей</li>
+      <li class="news-card-positions-item">Набор на 20 макарон - 1800 рублей</li>
+      <li class="news-card-positions-item">Набор на 3 макарон - 450 рублей</li>
+      <li class="news-card-positions-item">Набор-комбо 3+2 - 800 рублей</li>
+    </ul>
+    <img src="../img/news-card2-1-large.png" alt="большое изображение" class="main-image" id="main-image">
+    <ul class="news-card-little-cards" id="littleImage">
+      <li class="news-card-little-card" onclick="changeImage('main-image', '../img/news-card2-1-large.png')">
+        <img src="../img/news-card2-1-little.png" alt="маленькое изображение" class="news-card-little-card-image default-border">
+      </li>
+      <li class="news-card-little-card" onclick="changeImage('main-image', '../img/news-card1-3-large.png')">
+        <img src="../img/news-card1-3-little.png" alt="маленькое изображение" class="news-card-little-card-image">
+      </li>
+      <li class="news-card-little-card" onclick="changeImage('main-image', '../img/news-card1-4-large.png')">
+        <img src="../img/news-card1-4-little.png" alt="маленькое изображение" class="news-card-little-card-image">
+      </li>
+      <li class="news-card-little-card" onclick="changeImage('main-image', '../img/news-card1-5-large.png')">
+        <img src="../img/news-card1-5-little.png" alt="маленькое изображение" class="news-card-little-card-image">
+      </li>
+    </ul>
+  </section>
+  <form class="news-card-form">
+    <h2 class="news-card-form-title">Заказать расчёт или отправить запрос на сотрудничество</h2>
+    <div class="news-card-form-wrapper">Контактное лицо*
+      <input type="text" class="news-card-form-input" id="name" name="user_name" placeholder="Укажите имя" required>
+    </div>
+    <div class="news-card-form-wrapper">Ваш телефон*
+      <input type="tel" class="news-card-form-input" id="phone" name="user_phone" placeholder="+7 (___) ___-__-__" required>
+    </div>
+    <div class="news-card-form-wrapper">Название компании
+      <input type="text" class="news-card-form-input" id="companyName" name="user_company" placeholder="Название компании">
+    </div>
+    <div class="news-card-form-wrapper">E-mail
+      <input type="email" class="news-card-form-input" id="email" name="user_email" placeholder="E-mail">
+    </div>
+    <div class="news-card-form-wrapper">Добавить комментарий
+      <textarea id="comment" name="user_comment" class="news-card-form-textarea"></textarea>
+    </div>
+    <button class="news-card-form-button">Оформить заказ</button>
+    <p class="news-card-form-confirm">
+      Нажимая на кнопку "Оформить заказ" Я принимаю и соглашаюсь с <a class="news-card-form-confirm-link" href="#">Договором оферты</a> и разрешаю обработку моих персональных данных в соответствии с <a class="news-card-form-confirm-link" href="#">Политикой конфиденциальности</a>
+    </p>
+  </form>
+  <footer class="footer">
+    <div class="footer-slogans">
+      <div class="footer-slogan-content">
+        <img src="../img/footer-icon-1.png" alt="сердце" class="footer-slogan-icon">
+        <p class="footer-slogan-text">Готовим вручную и с любовью</p>
+      </div>
+      <div class="footer-slogan-content">
+        <img src="../img/footer-icon-2.png" alt="машина" class="footer-slogan-icon">
+        <p class="footer-slogan-text">Доставим в день заказа</p>
+      </div>
+      <div class="footer-slogan-content">
+        <img src="../img/footer-icon-3.png" alt="семя" class="footer-slogan-icon">
+        <p class="footer-slogan-text">100% <br> миндальная мука и натуральные ингредиенты</p>
+      </div>
+    </div>
+    <div class="footer-contacts">
+      <div class="footer-adress-wrapper">
+        <span class="footer-copyright">© 2021 Макароншоп</span>
+        <p class="footer-adress">ООО "Квантум", Санкт-Петербург, улица Маршала Тухачевского, 22</p>
+      </div>
+      <div class="footer-contacts-wrapper">
+        <a href="tel:78123098288" class="footer-phone">+7 (812) 309 82 88</a>
+        <span class="footer-time">с 9:00 до 21:00</span>
+      </div>
+    </div>
+    <div class="footer-social-media">
+      <div class="footer-icon instagram-icon">
+        <a href="#" class="icon-link">
+          <img src="../svg/instagram-icon.svg" alt="инстаграмм" class="icon-image">
+        </a>
+      </div>
+      <div class="footer-icon facebook-icon">
+        <a href="#" class="icon-link">
+          <img src="../svg/facebook-icon.svg" alt="фэйсбук" class="icon-image">
+        </a>
+      </div>
+      <div class="footer-icon vk-icon">
+        <a href="#" class="icon-link">
+          <img src="../svg/vk-icon.svg" alt="в контакте" class="icon-image">
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/popup-menu.js"></script>
+  <script src="../js/news-card-galary.js"></script>
+</body>
+</html>
